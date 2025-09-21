@@ -1,0 +1,154 @@
+Lambda Execution Result (Latest Run):
+=== Experiment Errors ===
+
+2025-09-21 16:33:33,792 - INFO - Starting LP robust conformal prediction experiment
+
+2025-09-21 16:33:33,792 - INFO - Initialized LPConformalPrediction with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-09-21 16:33:34,024 - INFO - Generating 1000 time series samples with distribution shift
+
+2025-09-21 16:33:34,088 - INFO - Generated time series data: (1000, 50)
+
+2025-09-21 16:33:34,089 - INFO - Computing nonconformity scores
+
+2025-09-21 16:33:34,099 - INFO - Computed nonconformity scores: (1000,)
+
+2025-09-21 16:33:34,099 - INFO - Data split: 500 calibration, 500 test samples
+
+2025-09-21 16:33:34,099 - INFO - Calibrating conformal prediction model
+
+2025-09-21 16:33:34,267 - INFO - Calibration complete: quantile=0.5981, level=0.9519
+
+2025-09-21 16:33:34,267 - INFO - Making predictions
+
+2025-09-21 16:33:34,267 - INFO - Evaluating coverage results
+
+2025-09-21 16:33:34,267 - INFO - Overall coverage: 0.054 (target: 0.900)
+
+2025-09-21 16:33:34,268 - INFO - Coverage before shift: 0.000
+
+2025-09-21 16:33:34,268 - INFO - Coverage after shift: 0.054
+
+2025-09-21 16:33:34,268 - INFO - ==================================================
+
+2025-09-21 16:33:34,268 - INFO - EXPERIMENT RESULTS SUMMARY
+
+2025-09-21 16:33:34,268 - INFO - ==================================================
+
+2025-09-21 16:33:34,268 - INFO - Method: LP Robust Conformal Prediction
+
+2025-09-21 16:33:34,268 - INFO - Parameters: α=0.1, ε=0.1, ρ=0.05
+
+2025-09-21 16:33:34,268 - INFO - Overall coverage: 0.054 (target: 0.900)
+
+2025-09-21 16:33:34,268 - INFO - Coverage before distribution shift: 0.000
+
+2025-09-21 16:33:34,268 - INFO - Coverage after distribution shift: 0.054
+
+2025-09-21 16:33:34,268 - WARNING - ⚠ Experiment: Coverage below target
+
+2025-09-21 16:33:34,268 - INFO - Experiment completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-21 16:33:33,792 - INFO - Starting LP robust conformal prediction experiment\n2025-09-21 16:33:33,792 - INFO - Initialized LPConformalPrediction with alpha=0.1, epsilon=0.1, rho=0.05\n2025-09-21 16:33:34,024 - INFO - Generating 1000 time series samples with distribution shift\n2025-09-21 16:33:34,088 - INFO - Generated time series data: (1000, 50)\n2025-09-21 16:33:34,089 - INFO - Computing nonconformity scores\n2025-09-21 16:33:34,099 - INFO - Computed nonconformity scores: (1000,)\n2025-09-21 16:33:34,099 - INFO - Data split: 500 calibration, 500 test samples\n2025-09-21 16:33:34,099 - INFO - Calibrating conformal prediction model\n2025-09-21 16:33:34,267 - INFO - Calibration complete: quantile=0.5981, level=0.9519\n2025-09-21 16:33:34,267 - INFO - Making predictions\n2025-09-21 16:33:34,267 - INFO - Evaluating coverage results\n2025-09-21 16:33:34,267 - INFO - Overall coverage: 0.054 (target: 0.900)\n2025-09-21 16:33:34,268 - INFO - Coverage before shift: 0.000\n2025-09-21 16:33:34,268 - INFO - Coverage after shift: 0.054\n2025-09-21 16:33:34,268 - INFO - ==================================================\n2025-09-21 16:33:34,268 - INFO - EXPERIMENT RESULTS SUMMARY\n2025-09-21 16:33:34,268 - INFO - ==================================================\n2025-09-21 16:33:34,268 - INFO - Method: LP Robust Conformal Prediction\n2025-09-21 16:33:34,268 - INFO - Parameters: \u03b1=0.1, \u03b5=0.1, \u03c1=0.05\n2025-09-21 16:33:34,268 - INFO - Overall coverage: 0.054 (target: 0.900)\n2025-09-21 16:33:34,268 - INFO - Coverage before distribution shift: 0.000\n2025-09-21 16:33:34,268 - INFO - Coverage after distribution shift: 0.054\n2025-09-21 16:33:34,268 - WARNING - \u26a0 Experiment: Coverage below target\n2025-09-21 16:33:34,268 - INFO - Experiment completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1856.59 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
+=== Experiment Errors ===
+
+2025-09-21 16:33:34,458 - INFO - Starting LP robust conformal prediction experiment
+
+2025-09-21 16:33:34,458 - INFO - Initialized LPConformalPrediction with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-09-21 16:33:34,472 - INFO - Generating 1000 time series samples with distribution shift
+
+2025-09-21 16:33:34,542 - INFO - Generated time series data: (1000, 50)
+
+2025-09-21 16:33:34,542 - INFO - Computing nonconformity scores
+
+2025-09-21 16:33:34,553 - INFO - Computed nonconformity scores: (1000,)
+
+2025-09-21 16:33:34,553 - INFO - Data split: 500 calibration, 500 test samples
+
+2025-09-21 16:33:34,553 - INFO - Calibrating conformal prediction model
+
+2025-09-21 16:33:34,565 - INFO - Calibration complete: quantile=0.5981, level=0.9519
+
+2025-09-21 16:33:34,565 - INFO - Making predictions
+
+2025-09-21 16:33:34,565 - INFO - Evaluating coverage results
+
+2025-09-21 16:33:34,565 - INFO - Overall coverage: 0.054 (target: 0.900)
+
+2025-09-21 16:33:34,565 - INFO - Coverage before shift: 0.000
+
+2025-09-21 16:33:34,565 - INFO - Coverage after shift: 0.054
+
+2025-09-21 16:33:34,565 - INFO - ==================================================
+
+2025-09-21 16:33:34,565 - INFO - EXPERIMENT RESULTS SUMMARY
+
+2025-09-21 16:33:34,565 - INFO - ==================================================
+
+2025-09-21 16:33:34,565 - INFO - Method: LP Robust Conformal Prediction
+
+2025-09-21 16:33:34,565 - INFO - Parameters: α=0.1, ε=0.1, ρ=0.05
+
+2025-09-21 16:33:34,565 - INFO - Overall coverage: 0.054 (target: 0.900)
+
+2025-09-21 16:33:34,565 - INFO - Coverage before distribution shift: 0.000
+
+2025-09-21 16:33:34,565 - INFO - Coverage after distribution shift: 0.054
+
+2025-09-21 16:33:34,565 - WARNING - ⚠ Experiment: Coverage below target
+
+2025-09-21 16:33:34,565 - INFO - Experiment completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-21 16:33:34,458 - INFO - Starting LP robust conformal prediction experiment\n2025-09-21 16:33:34,458 - INFO - Initialized LPConformalPrediction with alpha=0.1, epsilon=0.1, rho=0.05\n2025-09-21 16:33:34,472 - INFO - Generating 1000 time series samples with distribution shift\n2025-09-21 16:33:34,542 - INFO - Generated time series data: (1000, 50)\n2025-09-21 16:33:34,542 - INFO - Computing nonconformity scores\n2025-09-21 16:33:34,553 - INFO - Computed nonconformity scores: (1000,)\n2025-09-21 16:33:34,553 - INFO - Data split: 500 calibration, 500 test samples\n2025-09-21 16:33:34,553 - INFO - Calibrating conformal prediction model\n2025-09-21 16:33:34,565 - INFO - Calibration complete: quantile=0.5981, level=0.9519\n2025-09-21 16:33:34,565 - INFO - Making predictions\n2025-09-21 16:33:34,565 - INFO - Evaluating coverage results\n2025-09-21 16:33:34,565 - INFO - Overall coverage: 0.054 (target: 0.900)\n2025-09-21 16:33:34,565 - INFO - Coverage before shift: 0.000\n2025-09-21 16:33:34,565 - INFO - Coverage after shift: 0.054\n2025-09-21 16:33:34,565 - INFO - ==================================================\n2025-09-21 16:33:34,565 - INFO - EXPERIMENT RESULTS SUMMARY\n2025-09-21 16:33:34,565 - INFO - ==================================================\n2025-09-21 16:33:34,565 - INFO - Method: LP Robust Conformal Prediction\n2025-09-21 16:33:34,565 - INFO - Parameters: \u03b1=0.1, \u03b5=0.1, \u03c1=0.05\n2025-09-21 16:33:34,565 - INFO - Overall coverage: 0.054 (target: 0.900)\n2025-09-21 16:33:34,565 - INFO - Coverage before distribution shift: 0.000\n2025-09-21 16:33:34,565 - INFO - Coverage after distribution shift: 0.054\n2025-09-21 16:33:34,565 - WARNING - \u26a0 Experiment: Coverage below target\n2025-09-21 16:33:34,565 - INFO - Experiment completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 279.75 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: bad347b5-6590-46dc-bc81-28c2e9440fd8 Version: $LATEST
+
+RequestId: bad347b5-6590-46dc-bc81-28c2e9440fd8 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: bad347b5-6590-46dc-bc81-28c2e9440fd8
+
+REPORT RequestId: bad347b5-6590-46dc-bc81-28c2e9440fd8	Duration: 281.94 ms	Billed Duration: 282 ms	Memory Size: 3008 MB	Max Memory Used: 25 MB	
+
